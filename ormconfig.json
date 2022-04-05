@@ -1,0 +1,22 @@
+{
+  "type": "mysql",
+  "host": "localhost",
+  "port": 3306,
+  "username": "root",
+  "password": "root",
+  "database": "okten",
+  "synchronize": false,
+  "logging": false,
+  "autoLoadEntities": true,
+  "entities": [
+    "src/entity/**/*.ts"
+  ],
+  "migrations": [
+    "src/migration/**/*.ts"
+  ],
+  "subscribers": [
+  ],
+  "cli": {
+    "migrationsDir": "src/migration"
+  }
+}
